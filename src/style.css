@@ -1,0 +1,268 @@
+/* reset padrão */
+html{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+
+
+  font-size: 62.5%;
+}
+
+/* layout */
+#container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  padding: 0 4rem;
+
+  background: #fafafa;
+}
+
+header img{
+  height: 8rem;
+  width: 22rem;
+
+  padding: 4rem;
+}
+
+form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 95%;
+}
+
+form input{
+  width: 95%;
+  height: 3rem;
+  margin-bottom: .7rem;
+  padding: 0.9rem 0 0.7rem 1.1rem;
+
+  border: 1px solid #E7E7E7;
+
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 1.5rem;
+}
+
+form button{
+  width: 100%;
+  height: 3.6rem;
+
+  margin-top: 1rem;
+
+  color: white;
+  background: #AFDCF9;
+  
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  font-size: 1.6rem;
+
+}
+
+#separator{
+  display: flex;
+
+  align-items: center;
+
+  margin-top: 1.8rem;
+  width: 95%;
+}
+#separator div{
+  color: #909499;
+
+  font-weight: 500;
+
+  font-size: 2rem;
+
+  font-family: 'Roboto', sans-serif;
+}
+
+#s1{
+  width: 45%;
+  height: 1px;
+
+  margin-right: 2rem;
+
+  background: #E7E7E7;
+}
+
+#s2{
+  width: 45%;
+  height: 1px;
+
+  margin-left: 2rem;
+
+  background: #E7E7E7;
+}
+
+#firstSection{
+  margin: 3rem 0 2rem 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  font-size: 1.8rem;
+  color: #395286;
+
+  font-family: 'Roboto', sans-serif;
+
+  font-weight: 500;
+}
+#firstSection span {
+  cursor: pointer;
+  text-align: center;
+}
+.uil {
+
+  color: #395286;
+  font-size: 2.5rem;
+
+}
+
+#senha{
+  font-weight:400;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  color: #6480A1;
+  
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+#secondSection{
+  font-size: 1.7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+
+  margin-top: 3rem;
+}
+
+#secondSection p a{
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight:500;
+
+  color: #5EA0F6;
+}
+#secondSection span{
+  margin: 3rem 0 2rem 0;
+}
+
+#img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 5rem;
+}
+
+#img img{
+  width: 50%;
+  padding: 0.5rem;
+  height: auto;
+  cursor: pointer;
+}
+
+#copy{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  margin-top: 4rem;
+
+  color: #797575;
+  font-size: 1.5rem;
+  font-family: 'Roboto', sans-serif;
+  line-height: 2;
+}
+#copy p{
+  text-align: center;
+  margin: 0;
+}
+#copy span{
+  text-align: center;
+  padding: 0.5rem;
+}
+
+footer{
+  text-align: center;
+  margin-top: 2rem;
+}
+
+@media screen and (min-width:450px){
+  #container{
+    height: 100%;
+  }
+  #content{ 
+    background: #ffffff;   
+    border: solid 1px #E7E7E7;
+    margin: 5rem 4rem 0 4rem;
+    width: 45rem;
+  }
+  header{
+    display: flex;
+    justify-content: center;
+  }
+
+  form {
+    max-width: 35rem;
+    margin: 0 auto;
+  }
+
+  form input{
+    background: #fafafa;
+  }
+  #secondSection {
+    margin-top: 1.5rem;
+  }
+  #secondSection p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 45rem;
+    height: 8rem;
+    
+    background: #ffffff;   
+    text-align: center;
+    border: solid 1px #E7E7E7;
+
+    margin: 0;
+  }
+  #s1, #s2{
+    height: 2px;
+    background:#E8E8E8;
+  }
+  #img{
+    width: 45rem;
+  }
+  #img img{
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 879px){
+  #responsive{
+    display: flex;
+  }
+  #imgHome{
+  }
+  #imgHome img{
+    height: 40rem;
+  }
+}
